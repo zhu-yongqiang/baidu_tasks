@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏布局</title>
+    <style>
+        * {
+        	margin: 0;
+        	padding: 10px;
+        }
+        #main {
+        	padding: 20px;
+            position: relative;
+            background-color: #ffffff;
+            border: 2px solid black;
+        }
+        #left {
+        	overflow: hidden;
+        	text-align: center;
+        	padding: 20px;
+        	background-color: red;
+        	position: absolute;
+        	top: 20px;
+        	left: 20px;
+        	width: 220px;
+        	padding: 20px;
+        	border: 1px solid black;
+        }
+        #right {
+        	overflow: hidden;
+        	text-align: center;
+        	padding: 20px;
+        	background-color: blue;
+        	position: absolute;
+        	top: 20px;
+        	right: 20px;
+        	width: 300px;
+        	padding: 20px;
+        	border: 1px solid black;
+        }
+        #center {
+        	overflow: hidden;
+        	text-align: center;
+        	padding: 20px;
+        	margin-right: 370px;
+        	margin-left: 280px;
+        	border: 1px solid black;
+        }
+        .clear {
+        	clear: both;
+        }
+    </style>
+</head>
+<body>
+	<div id="main">
+		<div id="left">
+		    <h1>我爱前端</h1>
+		    <p>leftleftleftleftleft</p>
+		    <p>leftleftleftleftleft</p>
+		    <p>leftleftleftleftleft</p>
+		    <p>leftleftleftleftleft</p>
+		</div>
+		<div id="center">
+		    <h1>朱永强智障啊</h1>
+			<p>centercentercentercentercentercentercentercentercenter</p>
+		</div>
+		<div id="right">
+		    <h1>我爱前端</h1>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+			<p>rightrightrightrightrightrightright</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>
