@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+li {
+	list-style: none;
+}
+.h {
+	line-height: 2em;
+}
+p {
+	line-height: 2em;
+	text-indent: 2em;
+}
+th {
+	background-color: #000;
+	color: white;
+    font-weight: bold;
+    text-align: left;
+}
+.tf {
+	font-weight: bold;
+	background-color: #ccc;
+}
+body {
+    background-color: #dedede;
+}
+header {
+	background-color: #333333;
+	color: white;
+    overflow: hidden;
+    height: 100px;
+}
+header p {
+	float: left;
+	line-height: 100px;
+}
+header li {
+	display: inline-block;
+	float: right;
+	line-height: 100px;
+	padding-left: 15px;
+}
+.page {
+	min-height: 500px;
+	width: 80%;
+	margin: auto;
+	background-color: #fff;
+	padding: 30px 50px;
+	margin: 30px auto;
+	box-shadow: 3px 3px 3px #333;
+}
+.page img {
+	width: 300px;
+	height: 300px;
+}
+.page > ul {
+	margin: 1em;
+	padding: 10px;
+}
+.pic {
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+table {
+	line-height: 30px;
+	width: 100%;
+}
+form p {
+	margin: 20px;
+}
+.msg {
+	font-size: 13px;
+	color: #999;
+	padding-left: 13%;
+}
+#button {
+	height: 50px;
+	width: 100%;
+	background-color: #0066cc;
+	border-radius: 10px;
+}
+footer {
+	background-color: #333333;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+footer p {
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
