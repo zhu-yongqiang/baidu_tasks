@@ -280,13 +280,101 @@ header {
 			height: 364px;
 			background-color: #eeedd6;
 			margin-top: 30px;
-			.sanjiao {
-				width: 0;
-			    height: 0;
-			    border-left: 6px solid transparent;
-			    border-right: 6px solid transparent;
-			    border-bottom: 6px solid #11456c;
+			.div1{
+				padding: 25px 15px 0 28px;
+				white-space:nowrap;
+				.sanjiao {
+					display: inline-block;
+					width: 0;
+				    height: 0;
+				    border-left: 6px solid transparent;
+				    border-right: 6px solid transparent;
+				    border-bottom: 6px solid #11456c;
+				}
+				span {
+					opacity: 0.5;
+					.small {
+						font-size: 0.7em;
+					}
+				}
+			}
+			.div2 {
+				padding-top: 36px;
+				width: 100%;
+				height: 199px;
+				overflow: hidden;
+				.left2 {
+					text-align: center;
+				    line-height: 199px;
+					float: left;
+					height: 100%;
+					width: 60%;
+					background-color: #d45d5c;
+					.ling {
+						display: inline-block;
+						font-size: 130px;
+						font-family: microsoft yahei;
+						color: #ffffff;
+						width: 35%;
+					}
+					.left0 {
+						display: inline-block;
+						text-align: left;
+						font-family: SimHei;
+						color: white;
+						width: 60%;
+						height: 96px;
+						border-left: 2px solid #ffffff;
+						p {
+							line-height: 18px;
+                            font-size: 10px;
+                            margin-left: 5px;
+						}
+						.slide {
+							font-size: 15px;
+							font-style: italic;
+							line-height: 32px;
+						}
+
+					}
+				}
+				.right2 {
+					float: right;
+					font-size: 12px;
+                    font-family: SimHei;
+					height: 100%;
+					width: 38%;
+					line-height: 15px;
+					.shoul {
+						position: relative;
+						top: 32px;
+						left: -33px;
+						font-size: 62px;
+						color: #d45d5c;
+						height: 72px;
+					}
+					.shour {
+						position: relative;
+						top: 25px;
+						left: 13px;
+						font-size: 62px;
+						color: #d45d5c;
+						height: 72px;
+					}
+					.hello {
+						margin-left: -30px;
+					}
+					.word {
+						position: relative;
+						top: -18px;
+					}
+				}
 			}
 		}
 	}
+}
+footer {
+	text-align: right;
+	font-size: 12px;
+    color: #d45d5c;
 }
