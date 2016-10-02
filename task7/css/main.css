@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: microsoft yahei; }
+
+body {
+  background-color: #ffffff;
+  width: 100%; }
+
+header {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px; }
+  header .logo {
+    margin-left: 4.3%; }
+  header span {
+    margin-left: 10px;
+    margin-right: 29%;
+    margin-top: 10px;
+    font-size: 1.5em;
+    line-height: 60px; }
+  header li {
+    display: inline-block;
+    list-style: none;
+    width: 8%;
+    margin-left: 2%;
+    font-size: 18px;
+    height: 60px;
+    opacity: 0.6;
+    line-height: 60px;
+    box-sizing: border-box;
+    text-align: center; }
+  header .login {
+    width: 4%;
+    margin-left: 0; }
+  header .on {
+    border-bottom: 5px solid #da908f;
+    color: #da908f;
+    margin-right: -2%;
+    width: 5%; }
+
+#banner {
+  width: 100%;
+  height: 691px;
+  background-image: url(../images/3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  #banner p {
+    width: 40%; }
+  #banner .b_title {
+    font-size: 4em;
+    color: #ffffff;
+    position: relative;
+    top: 230px;
+    left: 9%; }
+  #banner .word {
+    color: #ffffff;
+    font-size: 1em;
+    position: relative;
+    top: 242px;
+    left: 10%;
+    line-height: 1.5em; }
+  #banner .btn {
+    width: 25.5%;
+    height: 63px;
+    background-color: #e74f4d;
+    margin-top: 67px;
+    text-align: center;
+    line-height: 63px;
+    font-size: 1.8em; }
+
+#theme {
+  width: 100%;
+  height: 250px;
+  overflow: auto; }
+  #theme .one {
+    white-space: nowrap;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    float: left; }
+    #theme .one img {
+      margin: 45px 0; }
+    #theme .one .content {
+      box-sizing: border-box;
+      width: 100%;
+      height: 52px;
+      border-right: 2px solid #bbbbbb; }
+
+#question {
+  text-align: center;
+  width: 100%;
+  height: 363px;
+  background-color: #ececec; }
+  #question img {
+    margin-top: 78px; }
+  #question p {
+    margin-top: 42px;
+    color: #a1a1a1;
+    font-size: 3em; }
+
+#search {
+  text-align: center;
+  width: 100%;
+  height: 340px;
+  background-image: url(../images/9.jpg);
+  background-size: 100% 100%; }
+  #search .title {
+    font-size: 1.5em;
+    color: #ffffff;
+    padding-top: 50px;
+    line-height: 40px; }
+    #search .title span {
+      display: inline-block;
+      border-bottom: 3px solid #ffffff; }
+  #search .word {
+    margin-top: 20px;
+    color: #ffffff; }
+  #search .input {
+    margin-top: 50px; }
+    #search .input input {
+      width: 17%;
+      height: 25px;
+      padding: 10px;
+      background-image: url(../images/10.jpg);
+      background-repeat: no-repeat;
+      background-position: 98%; }
+    #search .input .left {
+      margin-left: 15px; }
+    #search .input .button {
+      display: inline-block;
+      width: 17%;
+      height: 45px;
+      margin-left: 15px;
+      background-color: #be4e48;
+      line-height: 45px;
+      text-align: center; }
+  #search .kuang {
+    width: 18.45%;
+    height: 150px;
+    background-color: #e4e3e5;
+    position: relative;
+    left: 31.65%; }
+    #search .kuang li {
+      list-style: none;
+      line-height: 25px;
+      text-align: left;
+      padding-left: 15%; }
+    #search .kuang .on {
+      background-color: #be4e48; }
+
+#activity {
+  width: 100%;
+  height: 609px;
+  background-color: #f7f7f7;
+  overflow: hidden; }
+  #activity .show {
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 20px;
+    width: 17%;
+    height: auto;
+    float: left; }
+    #activity .show p {
+      text-align: center;
+      margin-top: 10px; }
+    #activity .show .big {
+      font-size: 1.2em; }
+  #activity .on {
+    padding-left: 15%; }
+
+#neww {
+  width: 100%;
+  height: 568px;
+  overflow: hidden; }
+  #neww .left {
+    color: #ffffff;
+    text-align: center;
+    width: 66.4%;
+    height: 100%;
+    float: left;
+    background-image: url(../images/15.jpg);
+    background-size: 100% 100%; }
+    #neww .left .one {
+      font-size: 2.5em;
+      margin-top: 128px; }
+    #neww .left .two {
+      font-size: 9em; }
+  #neww .right {
+    text-align: center;
+    width: 33.6%;
+    height: 100%;
+    float: right; }
+    #neww .right .title {
+      padding: 140px 0 15px 0;
+      font-size: 1.2em;
+      color: black; }
+      #neww .right .title span {
+        color: #be4e48; }
+    #neww .right p {
+      line-height: 30px;
+      color: #bdbdbd; }
+    #neww .right .more {
+      color: #be4e48;
+      margin-top: 46px;
+      height: 33px;
+      width: 26%;
+      border: 2px solid #be4e48;
+      margin-left: 37%; }
+    #neww .right .pic {
+      margin-top: 10px; }
+      #neww .right .pic span {
+        display: inline-block;
+        height: 8px;
+        width: 8px;
+        border: 1px solid black;
+        border-radius: 100%;
+        margin-left: 10px;
+        opacity: 0.6; }
+      #neww .right .pic .on {
+        margin-left: 0;
+        background-color: #929292; }
+
+#life {
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  text-align: center; }
+  #life .life {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color: white;
+    float: left;
+    width: 33.2%;
+    height: 100%;
+    background-color: #be4e48; }
+    #life .life .new {
+      margin-top: 170px; }
+    #life .life .more {
+      display: inline-block;
+      width: 35%;
+      height: 45px;
+      border: 2px solid #ffffff;
+      margin-top: 20px;
+      line-height: 45px; }
+    #life .life .on {
+      border: 2px solid #be4e48; }
+  #life .white {
+    background-color: white;
+    color: black; }
+  #life .pic {
+    background-image: url(../images/16.jpg);
+    width: 33.6%;
+    height: 100%;
+    background-size: 100% 100%;
+    float: left; }
+
+#form {
+  width: 100%;
+  height: 745px; }
+  #form .main {
+    margin: 110px 128px; }
+    #form .main .title {
+      margin-bottom: 100px;
+      text-align: center; }
+      #form .main .title h3 {
+        font-weight: 500;
+        font-size: 1.3em;
+        opacity: 1; }
+      #form .main .title p {
+        opacity: 0.6;
+        line-height: 1.4em; }
+      #form .main .title .content {
+        margin-top: 30px; }
+    #form .main .left {
+      width: 22%;
+      height: 100%;
+      float: left; }
+      #form .main .left .name {
+        text-align: right; }
+      #form .main .left .begin {
+        margin-top: 24px; }
+    #form .main .right {
+      width: 56%;
+      float: left;
+      margin-left: 20%;
+      height: 100%; }
+      #form .main .right span {
+        padding: 0 8px;
+        line-height: 38px;
+        display: inline-block;
+        width: 42%;
+        height: 40px;
+        background-color: #ededef;
+        margin-left: 5%;
+        margin-bottom: 2.5%; }
+      #form .main .right div {
+        margin-left: 5%;
+        width: 95%;
+        height: 130px;
+        background-color: #ededef; }
+        #form .main .right div p {
+          padding: 10px; }
+      #form .main .right .submit {
+        margin-top: 20px;
+        width: 95%;
+        height: 40px;
+        background-color: #ededef;
+        margin-left: 5%;
+        line-height: 40px;
+        text-align: center; }
+
+footer {
+  width: 100%;
+  height: 412px;
+  color: #ffffff; }
+  footer .connect {
+    background-color: #32353e;
+    height: 358px;
+    width: 100%;
+    text-align: center; }
+    footer .connect .h {
+      padding-top: 84px;
+      font-size: 1.3em;
+      letter-spacing: 3px; }
+    footer .connect p {
+      font-size: 0.8em; }
+    footer .connect .input {
+      margin-top: 30px; }
+      footer .connect .input input {
+        width: 30%;
+        height: 40px; }
+      footer .connect .input span {
+        display: inline-block;
+        background-color: #6f7278;
+        width: 5%;
+        line-height: 40px;
+        height: 40px; }
+    footer .connect .icon {
+      margin-top: 30px; }
+  footer .last {
+    width: 100%;
+    height: 54px;
+    background-color: #2f2f38;
+    line-height: 54px; }
+    footer .last .left {
+      display: inline-block;
+      float: left;
+      margin-left: 10%; }
+    footer .last .right {
+      display: inline-block;
+      float: right;
+      margin-right: 5%; }
+
+/*# sourceMappingURL=main.css.map */
